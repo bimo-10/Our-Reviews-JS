@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Starter</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main
+      class="flex flex-col justify-center items-center h-screen text-center"
+    >
+      <section class="text-4xl font-bold mb-20 mx-auto">
+        <h1>Our Reviews</h1>
+        <hr class="border-2 border-sky-500 mt-4 w-16 mx-auto" />
+      </section>
+      <section class="border rounded-xl mx-auto py-4 px-6 my-4">
+        <div>
+          <img
+            id="person-img"
+            class="w-36 h-36 mx-auto rounded-full"
+            src="https://www.course-api.com/images/people/person-4.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="mt-8 text-center text-lg font-semibold tracking-wide mb-4">
+          <h1 id="author">Pak Joko Widodo</h1>
+          <h2 id="job" class="text-blue-500 font-light">Presiden Indonesia</h2>
+        </div>
+        <p id="info" class="font-extralight mb-4">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+          officia dolorem totam architecto eaque asperiores itaque, rerum
+          debitis praesentium incidunt.
+        </p>
+        <div class="text-4xl text-sky-300">
+          <button class="prev-btn p-2">&lt;</button>
+          <button class="next-btn p-2">&gt;</button>
+        </div>
+        <button
+          class="random-btn px-2 py-1 border-2 rounded-lg border-slate-500 hover:border-sky-500 hover:shadow-md hover:shadow-sky-400"
+        >
+          Surprise Me
+        </button>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
